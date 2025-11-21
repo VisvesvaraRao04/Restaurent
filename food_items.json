@@ -1,0 +1,150 @@
+{
+  "starters": [
+    {
+        "id": 1,
+        "name": "Veg Spring Rolls",
+        "price": 120,
+        "description": "Crispy fried rolls stuffed with vegetables.",
+        "image": "./assests/images/spring_roll.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Chicken 65",
+        "price": 160,
+        "description": "Spicy deep-fried chicken with curry leaves.",
+        "image": "./assests/images/chicken 65.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Paneer Tikka",
+        "price": 180,
+        "description": "Marinated paneer grilled to perfection.",
+        "image": "./assests/images/panneer tikka.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Gobi Manchurian",
+        "price": 140,
+        "description": "Crispy cauliflower tossed in Indo-Chinese sauce.",
+        "image": "./assests/images/gobi manchuriyan.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Chicken Manchow Soup",
+        "price": 110,
+        "description": "Spicy thick soup served with fried noodles.",
+        "image": "./assests/images/manchow_soup.jpg"
+    }
+],
+
+"main_course": [
+    {
+        "id": 6,
+        "name": "Chicken Biryani",
+        "price": 220,
+        "description": "Aromatic Hyderabadi dum biryani.",
+        "image":"./assests/images/biryani.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Veg Biryani",
+      "price": 180,
+      "description": "Fragrant rice cooked with fresh vegetables.",
+      "image": "./assests/images/veg biryani.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Butter Chicken",
+      "price": 260,
+      "description": "Creamy tomato gravy with tender chicken.",
+      "image": "./assests/images/butter_chicken.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Paneer Butter Masala",
+      "price": 200,
+      "description": "Paneer cubes in rich buttery gravy.",
+      "image": "./assests/images/panner butter masala.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Masala Dosa",
+      "price": 90,
+      "description": "Crispy dosa with potato masala.",
+      "image": "./assests/images/masala dosa.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Chicken Fried Rice",
+      "price": 150,
+      "description": "Egg and chicken fried rice Indo-Chinese style.",
+      "image": "./assests/images/chicken fried rice.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Veg Noodles",
+      "price": 120,
+      "description": "Steamed noodles fried with vegetables.",
+      "image": "./assests/images/veg noodles.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Dal Tadka",
+      "price": 130,
+      "description": "Yellow dal tempered with ghee and spices.",
+      "image": "./assests/images/dal tadka.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Chicken Curry",
+      "price": 240,
+      "description": "Traditional Indian style spicy chicken curry.",
+      "image": "./assests/images/chicken curry.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Roti (2 pcs)",
+      "price": 30,
+      "description": "Soft wheat roti, fresh and hot.",
+      "image": "./assests/images/roti.jpg"
+    }
+  ],
+
+  "desserts": [
+    {
+      "id": 16,
+      "name": "Gulab Jamun",
+      "price": 70,
+      "description": "Soft fried balls dipped in sugar syrup.",
+      "image": "./assests/images/gulab jamun.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Rasmalai",
+      "price": 110,
+      "description": "Sweet milk-soaked paneer discs.",
+      "image": "./assests/images/rasmalai.jpeg"
+    },
+    {
+      "id": 18,
+      "name": "Chocolate Brownie",
+      "price": 130,
+      "description": "Warm brownie served with chocolate sauce.",
+      "image": "./assests/images/chocolate brownie.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Ice Cream Scoop",
+      "price": 60,
+      "description": "Choose from vanilla, strawberry or chocolate.",
+      "image": "./assests/images/ice cream.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Fruit Salad",
+      "price": 90,
+      "description": "Fresh seasonal fruits, honey topped.",
+      "image": "./assests/images/fruit salad.jpg"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Event Planner</title>
+    <link rel="stylesheet" href="special_event.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="special_event.js" defer></script>
+</head>
+<body>
+    <nav id="nav_bar_table">
+        <h1 id="restaurent_name" onclick="window.location.href='restaurent.html'">Restro kid</h1>
+        <div id="list_types_container">
+            <ul id="list_continer">
+                <li class="lis" onclick="window.location.href='restaurent.html'">Home</li>
+                <li class="lis" id="menu_option">Menu</li>
+                <li class="lis" id="order_food_button">Order Food</li>
+                <li class="lis">Help</li>
+                <li class="lis" id="feed_back_button">FeedBack</li>
+            </ul>
+        </div>
+        <span id="menu_pic_holder">
+            <i class="fa-solid fa-bars" id="menu_button"></i>
+            <img src="./assests/images/profile_user_icon.png" alt="profile_poc" id="profile_picture">
+        </span>
+    </nav>
+    <div id="menu_button_options">
+        <h3 id="feed_back">Feed Back</h3>
+        <h3 id="Rate_us">Rate us</h3>
+    </div>
+    <h1 id="Event_book_heading">Book a Event</h1>
+    <div id="event_select_div">
+        <label for="" id="label_choose">Choose the event</label>
+        <select name="event_selection" id="event_selection">
+            <option value="">--Select a Event--</option>
+            <option value="Birthday">Birthday</option>
+            <option value="Anniversary">Anniversary</option>
+            <option value="GetToTeghter">Get to Gether</option>
+            <option value="Family Event">Family Event</option>
+        </select>
+    </div>
+    <div id="date_conatiner">
+        <input type="date" name="date" id="date_input" class="date_time_selecters">
+        <input type="time" name="" id="time_input" class="date_time_selecters">
+    </div>
+    <button id="Event_book_button" disabled>Book a special Event</button>
+</body>
+</html>
