@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(151, 126, 126, 0.068);
+    background-color: white;
     backdrop-filter: blur(10px);
 }
 #restaurent_name{
@@ -137,7 +137,7 @@
     left: 0;
     right: 0;
     transform-origin: left;
-    background-color: rgba(179, 130, 41, 0.6);
+    background-color: #ff7f32;
     z-index: -1;
     border-radius: 5vh;
     transform: scaleX(0);
@@ -198,7 +198,8 @@
     width: 90%;
     padding: 2vh;
     margin-top: 5vh;
-    background-color: lightgray;
+    /* background-color: lightgray; */
+    background-color: #f0f8ff;
     box-shadow: 0px 0px 0.5vh black;
     border-radius: 2vh;
     position: relative;
@@ -206,7 +207,9 @@
     text-align: center;
 }
 #quality_info{
-    background-color: gray;
+    /* background-color: gray; */
+    background-color: #2c2c54;
+    color: white;
 }
 #para_serve,#para_quality{
     font-size: 3.5vh;
@@ -279,7 +282,7 @@
         /* flex-wrap: wrap; */
     }
     .types_to_select{
-        width: 45%;
+        width: 80%;
         height: 120%;
         font-size: 3vh;
         text-align: center;
@@ -292,15 +295,15 @@
     }
     #info_container{
         position: relative;
-        bottom: -72vh;
+        bottom: -202vh;
     }
     #quality_container{
         position: relative;
-        bottom: -74vh;
+        bottom: -202vh;
     }
     .footer{
         position: relative;
-        bottom: -70vh;
+        bottom: -202vh;
     }
     #menu_button_options{
         width: 25vw;
@@ -313,7 +316,7 @@
     color: white;
     padding: 40px 20px;
     margin-top: 50px;
-    /* position: relative; */
+    position: relative;
 }
 
 .footer-container {
