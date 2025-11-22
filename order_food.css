@@ -96,6 +96,7 @@ body{
     justify-content: space-evenly;
 }
 .headings{
+    text-align: center;
     color: white;
     margin-top: 10vh;
     margin-bottom: 2vh;
@@ -143,7 +144,7 @@ body{
         font-size: 3vh;
     }
     .dish{
-        width: 35vw;
+        width: 60%;
         height: 40vh;
         padding: 2vh;
     }
@@ -151,8 +152,8 @@ body{
         width: 90%;
     }
     #menu_button_options{
-        width: 25vw;
-        left: 40vh;
+        width: 50%;
+        left: 40%;
         height: 30vh;
     }
 }
@@ -170,9 +171,9 @@ body{
         left: -10vh;
         top: 31vh;
     }
-    /* #menu_button_options{
-        width: 25vw;
-        left: 40vh;
+    #menu_button_options{
+        width: 30%;
+        left: 65%;
         height: 30vh;
-    } */
+    }
 }

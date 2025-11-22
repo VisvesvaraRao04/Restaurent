@@ -270,6 +270,11 @@
         height: 110%;
         padding-bottom: 1.5vh;
     }
+    #menu_button_options{
+        width: 30%;
+        left: 65%;
+        height: 30vh;
+    }
 }
 #image_container{
     animation: toScroleImages 20000ms 100ms ease-in-out  infinite forwards;
@@ -306,8 +311,8 @@
         bottom: -202vh;
     }
     #menu_button_options{
-        width: 25vw;
-        left: 40vh;
+        width: 50%;
+        left: 40%;
         height: 30vh;
     }
 }
